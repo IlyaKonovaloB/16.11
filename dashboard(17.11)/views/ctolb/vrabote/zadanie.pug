@@ -1,0 +1,23 @@
+each s2 in s.zadanie
+  if s2.status == "r"
+    #kvadrat1red.container
+      .naz #{s2.zadanie}
+      .nz #{s2.opisanie}
+      .n
+        button.btn.btn-danger(type='button') Завершить
+        button.btn.btn-danger(type='button') Описание
+  if s2.status == "y"
+    #kvadrat1yellow.container
+      .naz #{s2.zadanie}
+        .nz #{s2.opisanie}
+        .n
+          button.btn.btn-warning(type='button') Завершить
+          button.btn.btn-warning(type='button') Описание
+  if s2.status == "g"
+    #kvadrat1green.container
+      .naz #{s2.zadanie}
+      .nz #{s2.opisanie}
+      .n
+        button.btn.btn-success(type='button') Завершить
+        button.btn.btn-success(type='button') Описание
+      

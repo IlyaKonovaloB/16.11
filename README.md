@@ -31,4 +31,3 @@
 # PS помните что всё легко гуглиться, особенно на английском языке
 
 stackblitz
-https://docs.google.com/document/d/1YqciwhHh9MuEvX9r6AEKDACOLPJUul7DHU2drwzkMOo/edit
